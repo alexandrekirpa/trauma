@@ -12,9 +12,14 @@
   type="text/javascript"></script>
                                                               
   <style rel="stylesheet" >
+    .subdiv{
+    float:left;
+      width:33%;
+    }
     .imagens{background-color:white;width:300px;}
     body{
-    background-color: #EBEBEB;
+     font-family: Helvetica;
+      background-color: #EBEBEB;
     
     }
  .widget label{
@@ -115,8 +120,8 @@ background-color: white;color: black;
                                                                     
 <div class="widget">
                    
-  <fieldset>
-    
+    <div class="subdiv"><fieldset>
+  
      <label for="mecanismo"> Mecanismo do trauma: </label> 
                            <select id="mecanismo" name="mecanismo">
            <option selected disabled>Escolha</option>
@@ -159,9 +164,9 @@ background-color: white;color: black;
     <input type="checkbox" class="checkB" name="checkbox-7" id="checkbox-7">
        <label for="checkbox-7a">Equipe de trauma preparada</label>
     <input type="checkbox" class="checkB" name="checkbox-7a" id="checkbox-7a">                                                                        
-  </fieldset>
-                                                            <br></br>
-    <fieldset>
+    </fieldset></DIV>
+                                                          
+    <div class="subdiv"><fieldset>
     <legend>CHEGADA DO PACIENTE </legend>
     <label for="checkbox-8">Acionamento da campainha e cronômetro</label>
     <input type="checkbox" class="checkB" name="checkbox-8" id="checkbox-8">
@@ -192,8 +197,9 @@ background-color: white;color: black;
     <input type="checkbox" class="checkB" name="checkbox-18" id="checkbox-18">
     <label for="checkbox-19">Material Via Aérea difícil</label>
     <input type="checkbox" class="checkB" name="checkbox-19" id="checkbox-19">
-  </fieldset>
-    <br></br>
+  </fieldset></DIV>
+
+<div class="subdiv">
     <fieldset>
     <legend>INTUBAÇÃO</legend>
     <label for="checkbox-20">Capnografia</label>
@@ -236,6 +242,7 @@ background-color: white;color: black;
     <input type="checkbox" class="checkB" name="checkbox-34" id="checkbox-34">
   </fieldset>    
 </div>
+</DIV>
 
 </body>
 </html>
